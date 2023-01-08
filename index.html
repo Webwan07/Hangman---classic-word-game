@@ -176,7 +176,7 @@ let chosenWord = "";
 
 //Display option buttons
 const displayOptions = () => {
-  optionsContainer.innerHTML += `<h3>What is the true definition if beauty?</h3>`;
+  optionsContainer.innerHTML += `<h3>What is the true definition of beauty?</h3>`;
   let buttonCon = document.createElement("div");
   for (let value in options) {
     buttonCon.innerHTML += `<button class="options" onclick="generateWord('${value}')">${value}</button>`;
